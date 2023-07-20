@@ -1,5 +1,8 @@
  
-
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 .nav-container{
 
@@ -143,6 +146,7 @@ line-height: 30px;
     justify-content: center;
     gap: 17px;
     margin-top: 30px;
+    flex-wrap: wrap;
     margin-bottom: 70px;
   }
 
@@ -152,6 +156,38 @@ line-height: 30px;
 .img-text{
 color: #534C64;
 text-align: left;
+}
+
+/* play instant section styles start now */
+
+
+.play-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1241px;
+    gap: 120px;
+    flex-wrap: wrap;
+}
+
+.play-image{
+    max-width: 780px;
+    position: relative;
+}
+.first-play-pic{
+    max-width: 634px;
+}
+.second-play-pic {
+    position: absolute;
+    left: -20%;
+    bottom: -13%;
+}
+.play-description{ 
+    color: #0B0223; 
+}
+.play-instant-container{
+   width: 341px;
+   text-align: right;
 }
 
 /* unnon section */
@@ -253,4 +289,35 @@ font-size: 16px;
 font-weight: 500;
 margin-bottom: 70px;
 
+}
+.img-wrap{
+    position: relative;
+} 
+.img-wrap:hover .overlay{
+    opacity: 1;
+    
+}
+.overlay{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+
+}
+.overlay button{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+.overlay p{
+    color:#FF42A5;
 }
