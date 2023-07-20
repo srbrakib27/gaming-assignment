@@ -120,10 +120,9 @@ margin-bottom: 50px;
 .online-game-head{
 font-size: 48px;
 text-align: center;
-
 font-weight: 700;
-
 }
+
 .funny-vedio{
 
 background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -149,15 +148,14 @@ line-height: 30px;
     margin-top: 30px;
     margin-bottom: 70px;
   }
+
 .o-pic{
-  
-
- justify-content: center;
-
+  justify-content: center;
 }
 .img-text{
 color: #534C64;
-
-  text-align: left;
+text-align: left;
 }
+
+
 
